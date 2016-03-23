@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Student()
+comment1.params=n\ t1\ t2\ t3
+comment1.target=Student(java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=double\ calcAvg()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=t
+comment4.target=double\ getTest(int)
+numComments=5

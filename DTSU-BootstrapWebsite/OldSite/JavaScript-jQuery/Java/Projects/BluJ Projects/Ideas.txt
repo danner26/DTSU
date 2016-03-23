@@ -1,0 +1,44 @@
+** Reverse a String – Enter a string and the program will reverse it and print it **
+
+** Count Words in a String – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary. **
+
+** Check if Palindrome – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar” **
+
+** English > Pig Latin – Pig Latin is a game of alterations played on the English language game. To form the Pig Latin form of an English word the initial consonant sound is
+transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules. **
+
+Airline / Hotel Reservation System – Create a reservation system which books nmairline seats or hotel rooms charging various rates for particular sections of the 
+plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be
+available and can be scheduled.
+
+Credit Card Validator – Takes in a credit card number of a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number 
+(look into how credit cards use a checksum).
+
+Budget Tracker – Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they
+are saving or losing over a period of time. For added complexity allow the user to specify a date range and see the net flow of money in and out of the house
+budget for that time period.
+
+Recipe Creator and Manager – Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts,
+main courses or by ingredients like chicken, beef, soups, pies etc.
+
+List for later:
+
+Josephus Problem – Create a program which links together various node objects and then every Nth object is removed until you have one object left. This last
+object is the sole survivor. Look it up on Google under “Josephus Algorithm”
+
+Traffic Light Application – See if you can make your own street light application and then put it into an intersection scenario. Don’t let any cars run the
+lights and crash into one another!
+
+Pig Latin > English - Pig latin is a game of alteration
+
+s played on the English language game. This will turn pig latin back to english
+
+
+*FOR LICENSING -
+Open program > Check for hidden file > If none, see 1 - otherwise see 2
+1. prompt user for valid license provided on purchase > if correct see A - otherwise see B
+	A. create hidden file > run program
+	B. return error message > on pressing key close program
+2. check license key > ??????????? > if valid, see A - otherwise see B
+	A. run program
+	B. return error message > prompt to change key > save  > on hitting enter, close program*

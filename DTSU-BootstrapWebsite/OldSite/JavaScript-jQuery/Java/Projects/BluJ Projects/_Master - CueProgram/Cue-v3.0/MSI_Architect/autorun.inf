@@ -1,0 +1,6 @@
+[autorun]
+label = Cue Tracker
+open = autorun.exe [open][1] "CueTracker_Install-3.7.2.exe"
+
+[Installed]
+ProductCode = {BCA6C878-E3FF-425D-81B1-52F804AF0D9B}

@@ -1,0 +1,65 @@
+﻿ #footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+.auto-style3 {
+	font-family: Tahoma;
+	font-size: x-large;
+	text-decoration: overline underline;
+}
+#features {
+	width: 998px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+#features h1, #innercontent #features h1 {
+	font-family: myriad_web_probold;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing:-1px;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	/*filter: dropshadow(color=#FFFFFF, offx=1, offy=1);*/
+	margin: 0px;
+	line-height: normal;
+	font-weight: normal;
+}
+#features ul, #innercontent #features ul {
+	list-style-type: none;
+	float: left;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #00EE00;
+	padding: 0px;
+	width: 990px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#features ul li, #innercontent #features ul li {
+	width: 320px;
+	float: left;
+	line-height: 19px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 150px;
+	background-image: url(../images/icon1.jpg);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#features ul li b, #innercontent #features ul li b {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	margin-top: -15px;
+	font-size: 14px;
+}

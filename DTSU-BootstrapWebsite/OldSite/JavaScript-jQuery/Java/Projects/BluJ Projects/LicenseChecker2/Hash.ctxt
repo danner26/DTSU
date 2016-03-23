@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=u\ l\ m
+comment0.target=boolean\ createHashedFile(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=u\ l
+comment1.target=boolean\ checkHashedFile(java.lang.String,\ java.lang.String)
+numComments=2

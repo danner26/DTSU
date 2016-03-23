@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <!-- Cheange Title of Webpage below -->
+        <title>DTSU - Home</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+        <script src="jquery-1.11.1.js"></script>
+        <script src="GeneralScript.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.10.4/"></script>
+        <link rel="stylesheet" href="stylesheet2.css">
+        <script src="JavaScript.js"></script>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <script type="text/javascript">
+               $(document).ready(function() {	
+                    var id = '#dialog';
+
+                    //Get the window height and width
+		            var winH = $(window).height();
+		            var winW = $(window).width();
+
+		            //transition effect		
+		            $('#mask').fadeIn(1000);	
+		            $('#mask').fadeTo("slow", 0.8);
+
+		            //Set the popup window to center
+		            $(id).css('top',  winH/2-$(id).height()/2);
+		            $(id).css('left', winW/2-$(id).width()/2);
+	
+		            //transition effect
+		            $(id).fadeIn(3000); 	
+		            
+	                //if close button is clicked
+	                $('.window .close').click(function (e) {
+		                //Cancel the link behavior
+		                e.preventDefault();
+		
+		                $('#mask').hide();
+		                $('.window').hide();
+	                });		
+	
+	                //if mask is clicked
+	                $('#mask').click(function () {
+		                $(this).hide();
+		                $('.window').hide();
+	                });
+	                $(document).resize(function () {
+	                    if ($(document).height() != maskHeight || $(document).width() != maskWidth) {
+	                        var winH = $(window).height();
+		                    var winW = $(window).width();
+                            $(id).css('top',  winH/2-$(id).height()/2);
+		                    $(id).css('left', winW/2-$(id).width()/2);
+	                    };
+	                });
+	            
+            });
+
+        </script>
+        <style type="text/css">
+            #footer {
+                position: fixed;
+                bottom:0;
+                width:100%;
+            }
+        </style>
+        <style type="text/css">
+            body {
+            font-family:verdana;
+            font-size:15px;
+            }
+
+            a {color:blue; text-decoration:none}
+            a:hover {color:#ccc; text-decoration:none}
+
+            #mask {
+              position:absolute;
+              left:0;
+              top:0;
+              z-index:9000;
+              background-color:#000;
+              display:none;
+            }  
+            #boxes .window {
+              position:absolute;
+              left:0;
+              top:0;
+              width:440px;
+              height:200px;
+              display:none;
+              z-index:9999;
+              padding:20px;
+            }
+            #boxes #dialog {
+              width:375px; 
+              height:203px;
+              padding:10px;
+              background-color:#ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- One Time Overlay -->
+        <div id="boxes">
+            <div style="top: 200px; left: 550px; display: none; border:groove; border-width:10px; background-color:darkslategray ; " id="dialog" class="window">
+                 <p style="font-size: 18px; font-weight: 800; text-align: center;">Alert:</p> <br /> 
+                This website is in the beginning Alpha stages. Updates will be released regularly; check the change log for more information. <br />
+                With best regards, <br />
+                The DTSU Team <br /> <br />
+                <a href="#" class="close">Close</a>
+            </div>
+            <!-- Haze Overlay -->
+            <div style="width: 100%; height: 100%; display: none; opacity: 0.8;" id="mask"></div>
+        </div>
+        <div id='cssmenu' >
+            <ul>
+               <li><a href="index.html"><span>Home</span></a></li>
+               <li><a href='aboutUs.html'><span>About</span></a></li>
+               <li><a href='services.html'><span>Services</span></a></li>
+               <li><a href='support.html'><span>Support</span></a></li>
+               <li><a href='information.html'><span>FAQ</span></a></li>
+               <li><span>History</span></li>
+                <ol>
+                    <li><a href="history.html"><span>Computer's</span></a></li>
+                </ol>
+               <li><a href='sponsored.html'><span>Sponsored</span></a></li>
+               <li><a href='reviews.html'><span>Reviews</span></a></li>
+            </ul>
+        </div>
+        <!-- Header and Logo Combo -->
+        <div id="headerD">
+            <img src="pictures/headerTrans.png" alt="DTSU Logo & Header">
+            <div id="logoD"></div>
+        </div>
+
+        <div id="footer" style="width: 60%; text-align:center;"><a href="changeLog.html">Change Log</a></div>
+    </body>
+</html>
