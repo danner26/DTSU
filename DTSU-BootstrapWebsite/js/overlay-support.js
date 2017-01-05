@@ -2,7 +2,7 @@
     $('.overlay-trigger-support').on('click', function (event) {
         event.preventDefault();
         var overlay = $(this).data('overlay');
-
+        alert(overlay);
         if (!overlay) {
             console.log('You must provide the overlay id in the trigger. (data-overlay="overlay-id").');
             return;
