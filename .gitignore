@@ -2,3 +2,11 @@
 tools/sonar-scanner/
 
 node_modules/*
+
+*.html
+
+public/__react-static-webpack-plugin__routes\.js\.gz
+
+public/__react-static-webpack-plugin__template\.js\.gz
+
+public/scripts/

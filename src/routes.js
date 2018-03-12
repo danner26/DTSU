@@ -18,18 +18,6 @@ const WebsiteRoutes = {
 			},
 		},
 		{
-			path: 'features',
-			indexRoute: {
-				getComponent(location, cb) {
-					DynamicImport(
-						import(/* webpackChunkName: "features" */'app/content/Features'),
-						cb,
-						'features'
-					);
-				}
-			},
-		},
-		{
 			path: 'about',
 			indexRoute: {
 				getComponent(location, cb) {
@@ -42,13 +30,61 @@ const WebsiteRoutes = {
 			},
 		},
 		{
-			path: 'contact-us',
+			path: 'services',
 			indexRoute: {
 				getComponent(location, cb) {
 					DynamicImport(
-						import(/* webpackChunkName: "contact-us" */'app/content/ContactUs'),
+						import(/* webpackChunkName: "services" */'app/content/Services'),
 						cb,
-						'contact-us'
+						'services'
+					);
+				}
+			},
+		},
+		{
+			path: 'FAQ',
+			indexRoute: {
+				getComponent(location, cb) {
+					DynamicImport(
+						import(/* webpackChunkName: "faq" */'app/content/FAQ'),
+						cb,
+						'faq'
+					);
+				}
+			},
+		},
+		{
+			path: 'devteam',
+			indexRoute: {
+				getComponent(location, cb) {
+					DynamicImport(
+						import(/* webpackChunkName: "devteam" */'app/content/DevTeam'),
+						cb,
+						'devteam'
+					);
+				}
+			},
+		},
+		{
+			path: 'software',
+			indexRoute: {
+				getComponent(location, cb) {
+					DynamicImport(
+						import(/* webpackChunkName: "software" */'app/content/Software'),
+						cb,
+						'software'
+					);
+				}
+			},
+		},
+		{
+			path: 'support',
+			indexRoute: {
+				getComponent(location, cb) {
+					DynamicImport(
+						import(/* webpackChunkName: "support" */'app/content/Support'),
+						cb,
+						'support'
 					);
 				}
 			},
@@ -68,4 +104,3 @@ const WebsiteRoutes = {
 };
 
 export default WebsiteRoutes;
-

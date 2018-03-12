@@ -7,14 +7,14 @@ import { Row, Col } from 'antd';
 import SEO from 'app/components/SEO';
 
 
-const About = (props) => {
+const FAQ = (props) => {
 
 	return (
 		<DefaultLayout>
 
 			<div className="component__empty">
 				<Heading
-					title="About"
+					title="FAQ"
 					subtitle="Under Construction."
 				/>
 			</div>
@@ -24,4 +24,4 @@ const About = (props) => {
 
 }
 
-export default About;
+export default FAQ;

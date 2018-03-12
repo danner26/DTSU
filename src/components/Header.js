@@ -11,17 +11,23 @@ const Header = (props) => {
 		<div className="container">
 
 			<div className="logo">
-				<Link to="/">Productivity Application</Link>
+				<Link to="/">DTSU</Link>
 			</div>
 
 			<nav>
 				<Link to="/" activeClassName="active">Home</Link>
 				<span className="sep"></span>
-				<Link to="/features" activeClassName="active">Features</Link>
-				<span className="sep"></span>
 				<Link to="/about" activeClassName="active">About</Link>
 				<span className="sep"></span>
-				<Link to="/contact-us" activeClassName="active">Contact Us</Link>
+				<Link to="/services" activeClassName="active">Services</Link>
+				<span className="sep"></span>
+				<Link to="/faq" activeClassName="active">FAQ</Link>
+				<span className="sep"></span>
+				<Link to="/devteam" activeClassName="active">DevTeam</Link>
+				<span className="sep"></span>
+				<Link to="/software" activeClassName="active">Software</Link>
+				<span className="sep"></span>
+				<Link to="/support" activeClassName="active">Support</Link>
 			</nav>
 
 		</div>

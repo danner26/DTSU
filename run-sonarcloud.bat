@@ -1,1 +1,1 @@
-.\tools\sonar-scanner\bin\sonar-scanner.bat
+.\tools\sonar-scanner\bin\sonar-scanner.bat 

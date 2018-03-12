@@ -1,18 +1,13 @@
-/**	
+/**
  * Our main stylesheet.
  */
-
-
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
-
 $font_family_default: 'Segoe UI', 'Open Sans', Tahoma, Arial, sans-serif;
 $font_family_sil: 'Shadows Into Light Two', cursive;
 $font_family_lg: 'Lucida Grande', Tahoma;
-
 $header_height: 50px;
 $content_width: 1000px;
 $body_background: #F7F8FA;
-
 
 body {
 	background: $body_background;
@@ -23,8 +18,6 @@ body {
 	min-height: 100vh;
 	padding-top: $header_height;
 }
-
-
 // header styles: start
 header.main {
 	height: $header_height;
@@ -36,7 +29,6 @@ header.main {
 	top: 0;
 	z-index: 10;
 	// padding: 0 50px;
-
 	border-bottom: 4px solid #F7F8FA;
 	box-shadow: 0 0 0 1px #CCC;
 
@@ -66,6 +58,7 @@ header.main {
 			color: #000;
 			line-height: 24px;
 			margin: 13px 0;
+
 			&.active {
 				color: #FF0000;
 			}
@@ -74,7 +67,7 @@ header.main {
 		span.sep {
 			font-size: 18px;
 			line-height: 24px;
-			padding:  13px 0;
+			padding: 13px 0;
 			color: #CCC;
 
 			&:before {
@@ -83,21 +76,15 @@ header.main {
 				padding: 0 10px;
 			}
 		}
-
 	}
 }
 // header styles: end
-
 
 .container {
 	max-width: $content_width;
 	padding: 0 50px;
 	margin: 0 auto;
 }
-
-
-
-
 
 .page-content {
 	padding-top: 70px;
@@ -110,7 +97,6 @@ header.main {
 		color: #000;
 		margin-bottom: 10px;
 	}
-
 
 	.heading {
 		font-family: $font_family_sil;
@@ -128,11 +114,8 @@ header.main {
 			font-weight: 400;
 			color: #999;
 		}
-
 	}
-
 }
-
 
 .component--slider {
 	margin-top: 50px;
@@ -144,10 +127,10 @@ header.main {
 
 	.image {
 		max-height: 460px;
+
 		img {
 			max-width: 100%;
 			border-radius: 4px;
-
 			border: 2px solid rgb(234, 214, 33);
 			padding: 5px;
 			background: #FFEB3B;
@@ -168,12 +151,12 @@ header.main {
 		li {
 			background: #000;
 		}
-		li.slick-active button { background: #FF0000; }
+
+		li.slick-active button {
+			background: #FF0000;
+		}
 	}
-
 }
-
-
 
 .component--features {
 	margin-top: 50px;
@@ -202,6 +185,7 @@ header.main {
 		font-weight: 700;
 		color: #000;
 		letter-spacing: -1px;
+
 		.status {
 			margin-right: 10px;
 			color: green;
@@ -214,17 +198,17 @@ header.main {
 		margin-top: 15px;
 		color: rgba(0, 0, 0, 0.59);
 	}
-
 }
-
-
 
 .component__form {
 	margin-top: 20px;
 
 	.input {
 		margin-bottom: 20px;
-		&:last-child { margin-bottom: 0; }
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	label {
@@ -235,7 +219,8 @@ header.main {
 		margin-bottom: 2px;
 	}
 
-	input, textarea {
+	input,
+	textarea {
 		width: 100%;
 		background: #FFF;
 		border: 1px solid #CCC;
@@ -252,7 +237,6 @@ header.main {
 	button {
 		padding: 8px 14px;
 		background: #FF4848;
-
 		border-radius: 2px;
 		border: 1px solid;
 		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -263,10 +247,7 @@ header.main {
 		color: #FFF;
 		font-weight: 700;
 	}
-
 }
-
-
 
 .component__empty {
 	max-width: 600px;
@@ -279,8 +260,4 @@ header.main {
 	.subtitle {
 		color: #000 !important;
 	}
-
 }
-
-
-

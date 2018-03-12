@@ -5,7 +5,7 @@ const app = express();
 const path = require('path');
 
 // specify the port where you want this server to be available at
-app.set( 'port', process.env.PORT || 1001 );
+app.set( 'port', process.env.PORT || 3000 );
 
 // make the entire contents of public directory accessible
 app.use( express.static(
@@ -25,4 +25,3 @@ app.get( '/*', (req, res) => {
 app.listen( app.get('port'), function () {
 	console.log('Server running at http://localhost:%s', app.get('port'));
 });
-
