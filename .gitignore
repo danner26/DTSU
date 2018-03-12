@@ -1,3 +1,4 @@
-
 \.scannerwork/
 tools/sonar-scanner/
+
+node_modules/*
