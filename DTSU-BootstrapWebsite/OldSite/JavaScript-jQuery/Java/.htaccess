@@ -1,5 +1,0 @@
-AuthName "Java"
-AuthUserFile "/storage/content/13/123813/danstechsupport.com/public_html/JavaScript-jQuery/Java/.htpasswd"
-AuthGroupFile /dev/null
-AuthType Basic
-Require valid-user
