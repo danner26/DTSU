@@ -1,1 +1,0 @@
-﻿window.location.href = "http://dtsudevteam.dudaone.com"
