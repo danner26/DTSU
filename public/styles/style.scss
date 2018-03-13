@@ -1,9 +1,9 @@
 /**
  * Our main stylesheet.
  */
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 $font_family_default: 'Segoe UI', 'Open Sans', Tahoma, Arial, sans-serif;
-$font_family_sil: 'Shadows Into Light Two', cursive;
+$font_family_sil: 'Ubuntu', cursive;
 $font_family_lg: 'Lucida Grande', Tahoma;
 $header_height: 50px;
 $content_width: 1000px;
@@ -258,6 +258,6 @@ header.main {
 	border: 1px solid #ffc5b1;
 
 	.subtitle {
-		color: #000 !important;
+		color: #000;
 	}
 }

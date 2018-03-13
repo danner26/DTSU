@@ -19,6 +19,8 @@ const Services = (props) => {
 				/>
 			</div>
 
+			<SEO url="services" />
+
 		</DefaultLayout>
 	);
 

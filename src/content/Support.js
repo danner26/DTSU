@@ -24,6 +24,8 @@ const Support = (props) => {
 				/>
 			</div>
 
+			<SEO url="support" />
+
 		</DefaultLayout>
 	);
 	/*return (

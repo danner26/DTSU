@@ -3,6 +3,8 @@
 import React from 'react';
 import { message } from 'antd';
 
+var nodeify = require('nodeify');
+
 // empty scripts object, this keeps track of all the scripts that have been loaded dynamically.
 const scripts = {};
 
@@ -18,7 +20,7 @@ const DynamicImport = ( component, callback, script_name ) => {
 
 	if ( scripts[script_name] && scripts[script_name] === true ) {
 		return component.then( response => {
-			return callback( null, response.default );
+			return  nodeify(callback( null, response.default ));
 		});
 	}
 
@@ -31,7 +33,7 @@ const DynamicImport = ( component, callback, script_name ) => {
 	return component.then( response => {
 		if ( allPreviousLoaded ) { loading_message(); }
 		scripts[script_name] = true;
-		return callback( null, response.default );
+		return  nodeify(callback( null, response.default ));
 	})
 	.catch( error => {
 		throw new Error(`Component loading failed: ${error}`);

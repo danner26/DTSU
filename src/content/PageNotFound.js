@@ -17,6 +17,8 @@ const PageNotFound = (props) => {
 				/>
 			</div>
 
+			<SEO url="pagenotfound" />
+
 		</DefaultLayout>
 	);
 

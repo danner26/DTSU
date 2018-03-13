@@ -10,3 +10,9 @@ public/__react-static-webpack-plugin__routes\.js\.gz
 public/__react-static-webpack-plugin__template\.js\.gz
 
 public/scripts/
+
+tools
+
+public/styles\.css
+
+yarn-error\.log

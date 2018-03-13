@@ -19,6 +19,8 @@ const Software = (props) => {
 				/>
 			</div>
 
+			<SEO url="software" />
+
 		</DefaultLayout>
 	);
 
