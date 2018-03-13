@@ -25,4 +25,3 @@ render(
 	),
 	document.getElementById('root')
 );
-

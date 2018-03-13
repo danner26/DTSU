@@ -19,6 +19,8 @@ const About = (props) => {
 				/>
 			</div>
 
+			<SEO url="about" />
+
 		</DefaultLayout>
 	);
 

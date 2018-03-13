@@ -19,6 +19,8 @@ const FAQ = (props) => {
 				/>
 			</div>
 
+			<SEO url="faq" />
+
 		</DefaultLayout>
 	);
 

@@ -19,6 +19,8 @@ const DevTeam = (props) => {
 				/>
 			</div>
 
+			<SEO url="devteam" />
+
 		</DefaultLayout>
 	);
 

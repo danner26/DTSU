@@ -19,6 +19,8 @@ const Home = (props) => {
 				/>
 			</div>
 
+			<SEO url="home" />
+
 		</DefaultLayout>
 	);
 
