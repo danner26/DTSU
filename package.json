@@ -44,7 +44,7 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
-    "history": "^4.7.2",
+    "history": "^4.9.0",
     "nodeify": "^1.0.1"
   }
 }
