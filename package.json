@@ -41,7 +41,7 @@
     "react-static-webpack-plugin": "^2.1.0",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
-    "webpack": "^2.4.1"
+    "webpack": "^4.41.0"
   },
   "dependencies": {
     "history": "^4.7.2",
