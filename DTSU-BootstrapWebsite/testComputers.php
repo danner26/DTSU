@@ -9,7 +9,7 @@
     <link href="favicon.ico" rel="shortcut icon">
     <title>DTSU | Services</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/colors/color-74c9be.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet" />
     <!-- Custom CSS -->
@@ -299,7 +299,7 @@
     </script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="js/overlay.js"></script>
     <script src="js/overlay-support.js"></script>
     <script src="js/mailPHPcogs.js"></script>
