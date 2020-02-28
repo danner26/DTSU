@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="favicon.ico" rel="shortcut icon">
-    <title>DTSU - Services</title>
+    <title>DTSU | Services</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/colors/color-74c9be.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="home.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
 
                             <li><a href="about.html">About</a></li>
 
