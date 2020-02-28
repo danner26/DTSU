@@ -278,22 +278,24 @@ ul.btn li:last-child {
 	padding-right: 0;
 }
 
+/*-- client login button --*/
+
 .login_btn {
 	padding-left: 50px;
 }
 
 .login_btn a {
-	background-color: #fff;
+	background-color: #343a40;
 	display: inline-block;
 	padding: 7px 35px;
 	border-radius: 10px;
-	color: #292e39 !important;
+	color: white !important;
 	font-size: 17px;
 }
 
 .login_btn a:hover {
-	color: #fff !important;
-	background: #0808ff;
+	color: black !important;
+	background: #74c9be;
 }
 
 /*-- header area --*/
@@ -303,31 +305,29 @@ ul.btn li:last-child {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 /*-- navigation--*/
-
-.navigation.navbar {
-	float: right;
-	padding-top: 31px !important;
-	padding: 0;
+.navbar {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: 525;
 }
 
-.navigation.navbar-dark .navbar-nav .nav-link {
-	padding: 0 25px;
-	color: #fff;
-	font-size: 17px;
-	line-height: 20px;
-	font-weight: 500;
+.navbar-brand img {
+	width: 40px;
+	height: 40px;
+	/*-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;*/
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-	color: #51fe44;
+	color: #74c9be;
 }
 
 .navigation.navbar-dark .navbar-nav .active > .nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-	color: #51fe44;
+	color: #74c9be;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -464,7 +464,7 @@ ul.btn li:last-child {
 	width: 20px;
 	height: 20px;
 	border-radius: 20px;
-	background: #48ca95;
+	background: #74c9be;
 	margin-right: 5px;
 	margin-left: 5px;
 }
@@ -494,7 +494,7 @@ ul.btn li:last-child {
 }
 
 .text-bg a:hover {
-	background-color: #48ca95;
+	background-color: #74c9be;
 	color: #fff;
 	transition: ease-in all 0.5s;
 }
@@ -513,7 +513,7 @@ ul.btn li:last-child {
 	font-weight: bold;
 	padding: 0;
 	text-transform: uppercase;
-	border-bottom: #48ca95 solid 1px;
+	border-bottom: #74c9be solid 1px;
 	max-width: 315px;
 	margin: auto;
 }
@@ -530,7 +530,7 @@ ul.btn li:last-child {
 
 .read_more {
 	font-size: 17px;
-	background-color: #48ca95;
+	background-color: #74c9be;
 	color: #fff !important;
 	padding: 13px 0px;
 	width: 100%;
@@ -558,7 +558,7 @@ ul.btn li:last-child {
 	background: #fff;
 	text-align: center;
 	padding: 50px 20px 20px 20px;
-	border: #48ca95 solid 1px;
+	border: #74c9be solid 1px;
 	border-radius: 15px;
 }
 
@@ -619,7 +619,7 @@ ul.btn li:last-child {
 }
 
 .our_products .product_box h3:hover {
-	background: #48ca95;
+	background: #74c9be;
 	transition: ease-in all 0.5s;
 }
 
@@ -632,14 +632,14 @@ ul.btn li:last-child {
 	display: block;
 	margin-top: 50px;
 	background-color: transparent;
-	border: #48ca95 solid 2px;
-	color: #48ca95 !important;
+	border: #74c9be solid 2px;
+	color: #74c9be !important;
 	max-width: 232px;
 	padding: 15px 0;
 }
 
 .our_products .read_more:hover {
-	background: #48ca95;
+	background: #74c9be;
 	color: #000 !important;
 }
 
@@ -747,7 +747,7 @@ ul.btn li:last-child {
 	width: 20px;
 	height: 20px;
 	border-radius: 20px;
-	background: #48ca95;
+	background: #74c9be;
 }
 
 .customer_Carousel .carousel-indicators li.active {
@@ -809,7 +809,7 @@ ul.btn li:last-child {
 .main_form .send_btn {
 	font-size: 22px;
 	transition: ease-in all 0.5s;
-	background-color: #48ca95;
+	background-color: #74c9be;
 	text-transform: uppercase;
 	color: #fff;
 	padding: 15px 0px;
@@ -885,7 +885,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-	background-color: #48ca95;
+	background-color: #74c9be;
 	color: #fff;
 }
 
@@ -936,7 +936,7 @@ ul.social_icon li a:hover {
 .sub_btn {
 	font-size: 17px;
 	transition: ease-in all 0.5s;
-	background-color: #48ca95;
+	background-color: #74c9be;
 	color: #fff;
 	padding: 10px 0px;
 	max-width: 147px;
@@ -973,7 +973,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright a:hover {
-	color: #48ca95;
+	color: #74c9be;
 }
 
 /** end footer **/
